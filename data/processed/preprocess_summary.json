@@ -1,0 +1,26 @@
+{
+  "input": "DMSC.csv",
+  "output": "data\\processed\\douban_movie_reviews_clean.csv",
+  "label_mode": "binary",
+  "min_length": 2,
+  "chunksize": 50000,
+  "totals": {
+    "rows_read": 2125056,
+    "rows_written": 1589717,
+    "invalid_star_rows": 0,
+    "empty_comment_rows": 161,
+    "short_comment_rows": 7876,
+    "neutral_dropped_rows": 473473,
+    "duplicate_rows": 53829
+  },
+  "sentiment_counts": {
+    "negative": 358829,
+    "positive": 1230888
+  },
+  "star_counts": {
+    "1": 182578,
+    "2": 176251,
+    "4": 624360,
+    "5": 606528
+  }
+}
